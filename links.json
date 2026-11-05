@@ -1,0 +1,15 @@
+{
+  "title": "Link 导航站",
+  "description": "Sky 收藏的链接合集：每条都配一篇中文说明文章，按分类整理。",
+  "categories": [
+    {"id": "ai-tools", "name": "AI 工具", "icon": "🤖"},
+    {"id": "dev", "name": "开发与开源", "icon": "🛠️"},
+    {"id": "design", "name": "设计与创意", "icon": "🎨"},
+    {"id": "productivity", "name": "效率工具", "icon": "⚡"},
+    {"id": "learning", "name": "学习与资料", "icon": "📚"},
+    {"id": "crypto", "name": "加密与 Web3", "icon": "🪙"},
+    {"id": "media", "name": "资讯与内容", "icon": "📰"},
+    {"id": "misc", "name": "其他", "icon": "🔗"}
+  ],
+  "links": []
+}
