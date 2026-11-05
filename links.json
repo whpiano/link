@@ -2,14 +2,837 @@
   "title": "Link 导航站",
   "description": "Sky 收藏的链接合集：每条都配一篇中文说明文章，按分类整理。",
   "categories": [
-    {"id": "ai-tools", "name": "AI 工具", "icon": "🤖"},
-    {"id": "dev", "name": "开发与开源", "icon": "🛠️"},
-    {"id": "design", "name": "设计与创意", "icon": "🎨"},
-    {"id": "productivity", "name": "效率工具", "icon": "⚡"},
-    {"id": "learning", "name": "学习与资料", "icon": "📚"},
-    {"id": "crypto", "name": "加密与 Web3", "icon": "🪙"},
-    {"id": "media", "name": "资讯与内容", "icon": "📰"},
-    {"id": "misc", "name": "其他", "icon": "🔗"}
+    {
+      "id": "ai-tools",
+      "name": "AI 工具",
+      "icon": "🤖"
+    },
+    {
+      "id": "free",
+      "name": "免费资源",
+      "icon": "🎁"
+    },
+    {
+      "id": "github",
+      "name": "GitHub 开源项目",
+      "icon": "🐙"
+    },
+    {
+      "id": "relay",
+      "name": "API 中转站",
+      "icon": "🔀"
+    },
+    {
+      "id": "prompts",
+      "name": "提示词",
+      "icon": "💬"
+    },
+    {
+      "id": "dev",
+      "name": "开发编程",
+      "icon": "🛠️"
+    },
+    {
+      "id": "design",
+      "name": "设计创意",
+      "icon": "🎨"
+    },
+    {
+      "id": "productivity",
+      "name": "效率办公",
+      "icon": "⚡"
+    },
+    {
+      "id": "learning",
+      "name": "学习知识",
+      "icon": "📚"
+    },
+    {
+      "id": "community",
+      "name": "社交社区",
+      "icon": "👥"
+    },
+    {
+      "id": "video",
+      "name": "视频娱乐",
+      "icon": "🎬"
+    },
+    {
+      "id": "crypto",
+      "name": "加密与 Web3",
+      "icon": "🪙"
+    },
+    {
+      "id": "misc",
+      "name": "其他",
+      "icon": "🔗"
+    }
   ],
-  "links": []
+  "links": [
+    {
+      "name": "高级杂货铺",
+      "url": "https://zhp.0728.im/",
+      "summary": "公众号「高级杂货铺」的资源搜索页",
+      "category": "learning",
+      "tags": [
+        "微信公众号",
+        "资源搜索"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/learning/zahuopro.md",
+      "risk": false
+    },
+    {
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/zh-CN/",
+      "summary": "Mozilla 维护的权威 Web 开发文档",
+      "category": "dev",
+      "tags": [
+        "文档",
+        "前端",
+        "HTML/CSS/JS"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/dev/mdn-web-docs.md",
+      "risk": false
+    },
+    {
+      "name": "Rainflow Studio",
+      "url": "https://chatgpt.rainflow.foo/studio/",
+      "summary": "第三方免费 GPT Image 图片生成页",
+      "category": "free",
+      "tags": [
+        "图片生成",
+        "GPT Image",
+        "第三方镜像"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/rainflow-studio.md",
+      "risk": true
+    },
+    {
+      "name": "数字人口播",
+      "url": "https://github.com/andyhuo520/digital-human-koubo",
+      "summary": "一张照片生成 AI 数字人口播视频的 Agent 技能",
+      "category": "github",
+      "tags": [
+        "数字人",
+        "口播",
+        "Agent Skill",
+        "视频生成"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/digital-human-koubo.md",
+      "risk": false
+    },
+    {
+      "name": "Yunamo",
+      "url": "https://yunamo.com/register?ref=c2736224b0843bcb",
+      "summary": "免费 .loc.cc 二级域名注册与 DNS 托管",
+      "category": "free",
+      "tags": [
+        "免费域名",
+        "二级域名",
+        "DNS"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/yunamo.md",
+      "risk": false
+    },
+    {
+      "name": "Bot-Hosting",
+      "url": "https://bot-hosting.net/",
+      "summary": "免费托管 Discord 机器人及 Node/Python",
+      "category": "free",
+      "tags": [
+        "容器",
+        "免费托管",
+        "Node.js",
+        "Python"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/bot-hosting.md",
+      "risk": false
+    },
+    {
+      "name": "智谱",
+      "url": "https://www.bigmodel.cn/invite?icode=4Vza2o9LdMU0Xbwa4bpzfbC%2Fk7jQAKmT1mpEiZXXnFw%3D",
+      "summary": "智谱开放平台新用户注册送 2000 万 Tokens",
+      "category": "free",
+      "tags": [
+        "智谱",
+        "GLM",
+        "免费额度",
+        "API"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/zhipu-bigmodel.md",
+      "risk": false
+    },
+    {
+      "name": "InstaBox",
+      "url": "https://instabox.sh/",
+      "summary": "给 AI Agent 用的云端 Linux 机器，有免费档",
+      "category": "free",
+      "tags": [
+        "服务器",
+        "VPS",
+        "Agent 沙箱"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/instabox.md",
+      "risk": false
+    },
+    {
+      "name": "httpsms",
+      "url": "https://github.com/NdoleStudio/httpsms",
+      "summary": "把安卓手机变成可用 HTTP API 收发的短信网关",
+      "category": "github",
+      "tags": [
+        "短信",
+        "SMS 网关",
+        "Android",
+        "API"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/httpsms.md",
+      "risk": false
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai/",
+      "summary": "Anthropic 推出的 AI 助手，擅长长文与代码",
+      "category": "ai-tools",
+      "tags": [
+        "对话",
+        "代码",
+        "长文"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/ai-tools/claude.md",
+      "risk": false
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/",
+      "summary": "全球最大的视频分享平台",
+      "category": "video",
+      "tags": [
+        "视频",
+        "在线视频"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/video/youtube.md",
+      "risk": false
+    },
+    {
+      "name": "Today AI",
+      "url": "https://todayai.cn/settings",
+      "summary": "个人AI助理，新用户送3亿Tokens和3个月Pro",
+      "category": "free",
+      "tags": [
+        "白嫖",
+        "AI助理",
+        "Agent"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/today-ai.md",
+      "risk": false
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "summary": "OpenAI 的通用 AI 对话助手",
+      "category": "ai-tools",
+      "tags": [
+        "对话",
+        "写作",
+        "OpenAI"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/ai-tools/chatgpt.md",
+      "risk": false
+    },
+    {
+      "name": "Infrlo",
+      "url": "https://www.infrlo.com/",
+      "summary": "面向开发者的云托管平台，有免费套餐",
+      "category": "free",
+      "tags": [
+        "部署",
+        "云托管",
+        "免费套餐"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/infrlo.md",
+      "risk": false
+    },
+    {
+      "name": "DSH 插件市场",
+      "url": "https://dshopen.org/zh/#plugins",
+      "summary": "DeepSeek Harness 社区插件索引与每日推荐",
+      "category": "free",
+      "tags": [
+        "插件",
+        "DeepSeek Harness",
+        "DSH"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/dsh-plugin-market.md",
+      "risk": false
+    },
+    {
+      "name": "huashu-design",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "summary": "一句话让 Agent 产出网页、原型、PPT、动画等设计",
+      "category": "github",
+      "tags": [
+        "设计",
+        "Agent Skill",
+        "PPT",
+        "原型"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/huashu-design.md",
+      "risk": false
+    },
+    {
+      "name": "DeepSeek-Bot",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot",
+      "summary": "基于 DSH 的长期在线多 Bot 协作团队",
+      "category": "github",
+      "tags": [
+        "dsh",
+        "Bot",
+        "多智能体"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/ds-bot.md",
+      "risk": false
+    },
+    {
+      "name": "画布",
+      "url": "https://codexcli.club/canvas",
+      "summary": "API 中转站附带的在线生图画布，称每天有免费额度",
+      "category": "free",
+      "tags": [
+        "白嫖",
+        "生图",
+        "中转站"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/codexcli-canvas.md",
+      "risk": true
+    },
+    {
+      "name": "blitz.cloud",
+      "url": "https://blitz.cloud/",
+      "summary": "欧盟免费 Docker 与应用托管平台",
+      "category": "free",
+      "tags": [
+        "容器",
+        "Docker",
+        "免费托管",
+        "欧盟"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/blitz-cloud.md",
+      "risk": false
+    },
+    {
+      "name": "LightVela",
+      "url": "https://lightvela.com/",
+      "summary": "腾讯轻量云出品的云端 Hermes Agent 智能体",
+      "category": "ai-tools",
+      "tags": [
+        "白嫖",
+        "智能体",
+        "Hermes Agent",
+        "云端"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/ai-tools/lightvela.md",
+      "risk": false
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com/",
+      "summary": "DeepSeek 官方网页对话，免费好用的国产大模型",
+      "category": "ai-tools",
+      "tags": [
+        "对话",
+        "国产",
+        "免费"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/ai-tools/deepseek-chat.md",
+      "risk": false
+    },
+    {
+      "name": "知乎",
+      "url": "https://www.zhihu.com/",
+      "summary": "中文问答与专栏内容社区",
+      "category": "learning",
+      "tags": [
+        "问答",
+        "文章",
+        "社区"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/learning/zhihu.md",
+      "risk": false
+    },
+    {
+      "name": "ebook-treasure-chest",
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+      "summary": "按标签分类的中文电子书下载链接合集",
+      "category": "github",
+      "tags": [
+        "电子书",
+        "资源合集",
+        "阅读"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/ebook-treasure-chest.md",
+      "risk": true
+    },
+    {
+      "name": "DiPlay",
+      "url": "https://shihabal3amri.github.io/DiPlay/zh-Hans/",
+      "summary": "让安卓车机运行有线/无线 CarPlay 的 APK",
+      "category": "free",
+      "tags": [
+        "carplay",
+        "车机",
+        "比亚迪"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/diplay.md",
+      "risk": true
+    },
+    {
+      "name": "Zro",
+      "url": "https://zro.moonmath.ai/",
+      "summary": "DeepSeek/GLM 编程模型 API，每日免费额度",
+      "category": "free",
+      "tags": [
+        "白嫖",
+        "DeepSeek",
+        "GLM",
+        "API"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/zro-moonmath.md",
+      "risk": false
+    },
+    {
+      "name": "Tailscale-Termux-CLI",
+      "url": "https://github.com/bropines/tailscale-termux-cli",
+      "summary": "安卓 Termux 免 Root 运行 Tailscale",
+      "category": "github",
+      "tags": [
+        "tailscale",
+        "termux",
+        "安卓"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/tailscale-termux-cli.md",
+      "risk": false
+    },
+    {
+      "name": "免费SMS",
+      "url": "https://veepn.com/zh/",
+      "summary": "VeePN 提供的免费公共临时号码在线收短信服务",
+      "category": "free",
+      "tags": [
+        "SMS",
+        "接码",
+        "临时号码"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/veepn-online-sms.md",
+      "risk": true
+    },
+    {
+      "name": "ds-harness-remote",
+      "url": "https://github.com/liguobao/ds-harness-remote/tree/main",
+      "summary": "手机/网页远程访问本机 DSH 工作区的插件",
+      "category": "github",
+      "tags": [
+        "dsh",
+        "DeepSeek",
+        "远程访问"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/ds-harness-remote.md",
+      "risk": true
+    },
+    {
+      "name": "天才程序员中转站",
+      "url": "https://codexcli.club/register?aff=32T99MDL2PHX",
+      "summary": "兼容 Claude/GPT 接口的按量计费中转站",
+      "category": "relay",
+      "tags": [
+        "生图",
+        "白嫖",
+        "中转站",
+        "Codex"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/relay/codexcli-club.md",
+      "risk": true
+    },
+    {
+      "name": "V.CD邮箱",
+      "url": "https://mail.v.cd/",
+      "summary": "DNSHE 提供的免费 @v.cd 超短后缀邮箱",
+      "category": "free",
+      "tags": [
+        "白嫖",
+        "邮箱",
+        "短域名"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/vcd-mail.md",
+      "risk": true
+    },
+    {
+      "name": "Grok Bot 实战手册",
+      "url": "https://www.ssgoo.net/grok-bot-guide",
+      "summary": "Grok Bot 中文实战教程，含 Pi 接外部模型",
+      "category": "learning",
+      "tags": [
+        "AI",
+        "Grok Bot",
+        "教程",
+        "Pi"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/learning/grok-bot-guide.md",
+      "risk": false
+    },
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com/",
+      "summary": "浏览器即可用的在线 UI 设计、原型与团队协作平台",
+      "category": "design",
+      "tags": [
+        "UI",
+        "设计",
+        "原型",
+        "协作"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/design/figma.md",
+      "risk": false
+    },
+    {
+      "name": "小红书",
+      "url": "https://www.xiaohongshu.com/",
+      "summary": "以图文和短视频笔记为主的生活方式分享与种草社区",
+      "category": "community",
+      "tags": [
+        "种草",
+        "生活",
+        "社区"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/community/xiaohongshu.md",
+      "risk": false
+    },
+    {
+      "name": "烧饼论坛",
+      "url": "https://sb.sb/invite/v9a3udh8/",
+      "summary": "面向海外 IT 从业者的中文论坛，聊 AI、主机、域名",
+      "category": "community",
+      "tags": [
+        "sb.sb",
+        "论坛",
+        "主机",
+        "AI"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/community/sb-sb-forum.md",
+      "risk": false
+    },
+    {
+      "name": "DSH-Android",
+      "url": "https://github.com/jackwener/DSH-Android",
+      "summary": "免Root，一个APK让AI Agent操作安卓手机",
+      "category": "github",
+      "tags": [
+        "Android",
+        "DeepSeek",
+        "手机Agent",
+        "开源"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/dsh-android.md",
+      "risk": true
+    },
+    {
+      "name": "AgentScope Platform",
+      "url": "https://platform.agentscope.io/",
+      "summary": "注册送免费空间，云端一键部署AI Agent",
+      "category": "free",
+      "tags": [
+        "白嫖",
+        "Agent",
+        "云部署",
+        "QwenPaw"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/agentscope-platform.md",
+      "risk": false
+    },
+    {
+      "name": "CFNext",
+      "url": "https://github.com/PAICNI/CFNext",
+      "summary": "在Cloudflare上搭建的代理订阅管理面板",
+      "category": "github",
+      "tags": [
+        "节点",
+        "Cloudflare",
+        "Workers",
+        "代理"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/cfnext.md",
+      "risk": true
+    },
+    {
+      "name": "Free.ai",
+      "url": "https://free.ai/onboarding/",
+      "summary": "聚合数百AI工具，注册每天免费3万token",
+      "category": "free",
+      "tags": [
+        "白嫖",
+        "AI聊天",
+        "AI绘图",
+        "多模型"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/free-ai.md",
+      "risk": false
+    },
+    {
+      "name": "中医agent",
+      "url": "https://github.com/jangviktor-web/nihaixia",
+      "summary": "以倪海厦视角回答中医问题的 Agent Skill 知识库",
+      "category": "github",
+      "tags": [
+        "Skill",
+        "中医",
+        "Agent",
+        "Claude Code"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/nihaixia-tcm-skill.md",
+      "risk": false
+    },
+    {
+      "name": "AI 早报",
+      "url": "https://gist.github.com/sunkeke-ai/ec5e7810c5da9786dac6c3e6fda6849e",
+      "summary": "让 AI 每天自动生成 AI 资讯早报的完整指令模板",
+      "category": "prompts",
+      "tags": [
+        "AI",
+        "提示词工程",
+        "早报",
+        "信息降噪"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/prompts/sunkeke-ai-morning-brief.md",
+      "risk": false
+    },
+    {
+      "name": "LINUX DO",
+      "url": "https://linux.do/",
+      "summary": "人气很高的中文技术社区，AI 资讯、羊毛与中转站信息集中",
+      "category": "community",
+      "tags": [
+        "AI",
+        "社区",
+        "论坛",
+        "中转站"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/community/linux-do.md",
+      "risk": false
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "summary": "全球最大的代码托管与开源协作平台",
+      "category": "dev",
+      "tags": [
+        "代码",
+        "开源",
+        "Git",
+        "协作"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/dev/github.md",
+      "risk": false
+    },
+    {
+      "name": "Notion",
+      "url": "https://www.notion.so/",
+      "summary": "集笔记、文档、知识库与项目管理于一体的协作工具",
+      "category": "productivity",
+      "tags": [
+        "笔记",
+        "知识库",
+        "文档",
+        "协作"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/productivity/notion.md",
+      "risk": false
+    },
+    {
+      "name": "open-xiaoai",
+      "url": "https://github.com/OwnDing/open-xiaoai",
+      "summary": "把小爱音箱接入大模型与HA的AI家庭管家",
+      "category": "ai-tools",
+      "tags": [
+        "小爱",
+        "ai",
+        "智能家居",
+        "Home Assistant"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/ai-tools/open-xiaoai.md",
+      "risk": false
+    },
+    {
+      "name": "Lưu Vân Mail",
+      "url": "https://luuvan.site/",
+      "summary": "免注册临时邮箱，可接收验证码并提供API",
+      "category": "free",
+      "tags": [
+        "邮箱",
+        "临时邮箱"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/free/luuvan-mail.md",
+      "risk": true
+    },
+    {
+      "name": "LinkAndroid",
+      "url": "https://linkandroid.com/",
+      "summary": "安卓手机投屏、文件管理与自动化桌面助手",
+      "category": "ai-tools",
+      "tags": [
+        "安卓控制",
+        "投屏",
+        "ADB",
+        "自动化"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/ai-tools/linkandroid.md",
+      "risk": false
+    },
+    {
+      "name": "Cloudflare-Tunnel-Panel",
+      "url": "https://github.com/eooce/Cloudflare-Tunnel-Panel",
+      "summary": "Workers部署的多账号Cloudflare隧道管理面板",
+      "category": "github",
+      "tags": [
+        "隧道",
+        "Cloudflare",
+        "Workers"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/cloudflare-tunnel-panel.md",
+      "risk": false
+    },
+    {
+      "name": "教辅百宝箱",
+      "url": "https://edu.zmpai.com/",
+      "summary": "免费生成打印小学田字格、口算、字帖练习纸",
+      "category": "learning",
+      "tags": [
+        "k12",
+        "练习纸",
+        "打印",
+        "小学"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/learning/edu-toolbox.md",
+      "risk": false
+    },
+    {
+      "name": "awesome-telegram",
+      "url": "https://github.com/ebertti/awesome-telegram",
+      "summary": "Telegram机器人、频道与开发库精选清单",
+      "category": "github",
+      "tags": [
+        "telegram",
+        "awesome-list",
+        "机器人"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/awesome-telegram.md",
+      "risk": false
+    },
+    {
+      "name": "flatkey",
+      "url": "https://console.flatkey.ai/sign-up?aff=Os7K",
+      "summary": "一个Key调用多家文本图片视频模型的API聚合站",
+      "category": "relay",
+      "tags": [
+        "中转站",
+        "API",
+        "多模态"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/relay/flatkey.md",
+      "risk": false
+    },
+    {
+      "name": "dsh-purge",
+      "url": "https://github.com/zhaoshihang/dsh-purge",
+      "summary": "DeepSeek Harness破甲/越狱插件，已改商业许可",
+      "category": "github",
+      "tags": [
+        "dsh",
+        "ai",
+        "越狱",
+        "红队"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/dsh-purge.md",
+      "risk": true
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/",
+      "summary": "全球最大的程序员问答社区，报错先来搜",
+      "category": "dev",
+      "tags": [
+        "问答",
+        "报错",
+        "编程"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/dev/stack-overflow.md",
+      "risk": false
+    },
+    {
+      "name": "哔哩哔哩",
+      "url": "https://www.bilibili.com/",
+      "summary": "弹幕视频社区，番剧与免费学习资源丰富",
+      "category": "video",
+      "tags": [
+        "视频",
+        "学习",
+        "番剧",
+        "弹幕"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/video/bilibili.md",
+      "risk": false
+    }
+  ]
 }
