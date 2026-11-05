@@ -2,7 +2,7 @@
 
 > Sky 收藏的链接合集：每条都配一篇中文说明文章，按分类整理。
 
-共收录 **53** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
+共收录 **54** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
 
 **分类：** [🤖 AI 工具](#ai-tools) · [🎁 免费资源](#free) · [🐙 GitHub 开源项目](#github) · [🔀 API 中转站](#relay) · [💬 提示词](#prompts) · [🛠️ 开发编程](#dev) · [🎨 设计创意](#design) · [⚡ 效率办公](#productivity) · [📚 学习知识](#learning) · [👥 社交社区](#community) · [🎬 视频娱乐](#video)
 
@@ -61,6 +61,7 @@
 | **[Cloudflare-Tunnel-Panel](articles/github/cloudflare-tunnel-panel.md)** | Workers部署的多账号Cloudflare隧道管理面板 `隧道` `Cloudflare` `Workers` | [说明](articles/github/cloudflare-tunnel-panel.md) · [原链接](https://github.com/eooce/Cloudflare-Tunnel-Panel) |
 | **[awesome-telegram](articles/github/awesome-telegram.md)** | Telegram机器人、频道与开发库精选清单 `telegram` `awesome-list` `机器人` | [说明](articles/github/awesome-telegram.md) · [原链接](https://github.com/ebertti/awesome-telegram) |
 | **[dsh-purge](articles/github/dsh-purge.md)** ⚠️ | DeepSeek Harness破甲/越狱插件，已改商业许可 `dsh` `ai` `越狱` `红队` | [说明](articles/github/dsh-purge.md) · [原链接](https://github.com/zhaoshihang/dsh-purge) |
+| **[Aerial（aerial-tv）](articles/github/aerial-tv.md)** | 仿 Apple TV 的开源电视桌面，去广告去推荐，带航拍屏保，适配国产电视 `Android TV` `电视桌面` `去广告` `屏保` `开源` | [说明](articles/github/aerial-tv.md) · [原链接](https://github.com/pengchujin/aerial-tv) |
 
 <a id="relay"></a>
 

@@ -833,6 +833,22 @@
       "added": "2026-11-05",
       "article": "articles/video/bilibili.md",
       "risk": false
+    },
+    {
+      "name": "Aerial（aerial-tv）",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "summary": "仿 Apple TV 的开源电视桌面，去广告去推荐，带航拍屏保，适配国产电视",
+      "category": "github",
+      "tags": [
+        "Android TV",
+        "电视桌面",
+        "去广告",
+        "屏保",
+        "开源"
+      ],
+      "added": "2026-11-05",
+      "article": "articles/github/aerial-tv.md",
+      "risk": false
     }
   ]
 }
