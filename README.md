@@ -33,7 +33,6 @@
 | **[Today AI](articles/free/today-ai.md)** | 个人AI助理，新用户送3亿Tokens和3个月Pro `白嫖` `AI助理` `Agent` | [说明](articles/free/today-ai.md) · [原链接](https://todayai.cn/settings) |
 | **[Infrlo](articles/free/infrlo.md)** | 面向开发者的云托管平台，有免费套餐 `部署` `云托管` `免费套餐` | [说明](articles/free/infrlo.md) · [原链接](https://www.infrlo.com/) |
 | **[DSH 插件市场](articles/free/dsh-plugin-market.md)** | DeepSeek Harness 社区插件索引与每日推荐 `插件` `DeepSeek Harness` `DSH` | [说明](articles/free/dsh-plugin-market.md) · [原链接](https://dshopen.org/zh/#plugins) |
-| **[画布](articles/free/codexcli-canvas.md)** ⚠️ | API 中转站附带的在线生图画布，称每天有免费额度 `白嫖` `生图` `中转站` | [说明](articles/free/codexcli-canvas.md) · [原链接](https://codexcli.club/canvas) |
 | **[blitz.cloud](articles/free/blitz-cloud.md)** | 欧盟免费 Docker 与应用托管平台 `容器` `Docker` `免费托管` `欧盟` | [说明](articles/free/blitz-cloud.md) · [原链接](https://blitz.cloud/) |
 | **[DiPlay](articles/free/diplay.md)** ⚠️ | 让安卓车机运行有线/无线 CarPlay 的 APK `carplay` `车机` `比亚迪` | [说明](articles/free/diplay.md) · [原链接](https://shihabal3amri.github.io/DiPlay/zh-Hans/) |
 | **[Zro](articles/free/zro-moonmath.md)** | DeepSeek/GLM 编程模型 API，每日免费额度 `白嫖` `DeepSeek` `GLM` `API` | [说明](articles/free/zro-moonmath.md) · [原链接](https://zro.moonmath.ai/) |
@@ -69,6 +68,7 @@
 
 | 名称 | 简介 | 链接 |
 | --- | --- | --- |
+| **[画布](articles/relay/codexcli-canvas.md)** ⚠️ | API 中转站附带的在线生图画布，称每天有免费额度 `白嫖` `生图` `中转站` | [说明](articles/relay/codexcli-canvas.md) · [原链接](https://codexcli.club/canvas) |
 | **[天才程序员中转站](articles/relay/codexcli-club.md)** ⚠️ | 兼容 Claude/GPT 接口的按量计费中转站 `生图` `白嫖` `中转站` `Codex` | [说明](articles/relay/codexcli-club.md) · [原链接](https://codexcli.club/register?aff=32T99MDL2PHX) |
 | **[flatkey](articles/relay/flatkey.md)** | 一个Key调用多家文本图片视频模型的API聚合站 `中转站` `API` `多模态` | [说明](articles/relay/flatkey.md) · [原链接](https://console.flatkey.ai/sign-up?aff=Os7K) |
 

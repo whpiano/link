@@ -314,14 +314,14 @@
       "name": "画布",
       "url": "https://codexcli.club/canvas",
       "summary": "API 中转站附带的在线生图画布，称每天有免费额度",
-      "category": "free",
+      "category": "relay",
       "tags": [
         "白嫖",
         "生图",
         "中转站"
       ],
       "added": "2026-11-05",
-      "article": "articles/free/codexcli-canvas.md",
+      "article": "articles/relay/codexcli-canvas.md",
       "risk": true
     },
     {
