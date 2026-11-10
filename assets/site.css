@@ -33,7 +33,7 @@ kbd{font-family:inherit;font-size:12px;padding:2px 7px;border:1px solid var(--li
 /* chips */
 .chips-bar{position:sticky;top:0;z-index:5;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
   background:color-mix(in srgb,var(--bg) 78%,transparent);border-bottom:1px solid var(--line)}
-.chips{display:flex;gap:8px;overflow-x:auto;padding-top:12px;padding-bottom:12px;scrollbar-width:none}
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding-top:12px;padding-bottom:12px}
 .chips::-webkit-scrollbar{display:none}
 .chip{flex:none;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:999px;
   padding:7px 14px;font-size:14px;font-family:inherit;transition:all .15s}
@@ -44,7 +44,7 @@ kbd{font-family:inherit;font-size:12px;padding:2px 7px;border:1px solid var(--li
 
 /* sections + cards */
 main{padding-top:10px;padding-bottom:40px}
-section{scroll-margin-top:70px;margin-top:34px}
+section{scroll-margin-top:140px;margin-top:34px}
 section h2{display:flex;align-items:center;gap:10px;font-size:20px;margin:0 0 14px}
 section h2 em{font-style:normal;font-size:12px;font-weight:500;color:var(--muted);background:var(--panel2);border:1px solid var(--line);padding:1px 9px;border-radius:999px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
