@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}Link 导航站</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔗</text></svg>">
+<link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body>
+<div class="bg-glow"></div>
+<div class="article-top"><div class="wrap">
+  <a class="home" href="{{ '/' | relative_url }}">🔗 Link 导航站</a>
+  <a href="{{ '/' | relative_url }}">← 返回首页</a>
+</div></div>
+<main class="article">
+{{ content }}
+</main>
+<footer class="wrap foot"><p>仓库 <a href="https://github.com/whpiano/link">whpiano/link</a></p></footer>
+<script>
+// 文章末尾“返回导航首页”指向 README，改为首页
+document.querySelectorAll('.article a[href$="README.html"],.article a[href$="README.md"]').forEach(a => a.href = "{{ '/' | relative_url }}");
+document.querySelectorAll('.article a[href^="http"]').forEach(a => { if (!a.href.includes(location.host)) { a.target = "_blank"; a.rel = "noopener noreferrer"; } });
+</script>
+</body>
+</html>

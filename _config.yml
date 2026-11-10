@@ -1,0 +1,5 @@
+title: Link 导航站
+description: Sky 收藏的链接合集，每条都配一篇中文说明文章。
+exclude:
+  - scripts
+  - articles/TEMPLATE.md

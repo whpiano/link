@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Link 导航站</title>
+<meta name="description" content="Sky 收藏的链接合集：每条都配一篇中文说明文章，按分类整理。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔗</text></svg>">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><span class="logo">🔗</span> Link 导航站</div>
+    <h1>好链接，配一篇看得懂的说明</h1>
+    <p class="sub" id="sub">Sky 收藏的链接合集，按分类整理，每条都有中文说明文章。</p>
+    <div class="search">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M10 2a8 8 0 0 1 6.32 12.9l5.39 5.4-1.41 1.41-5.4-5.39A8 8 0 1 1 10 2Zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z"/></svg>
+      <input id="q" type="search" placeholder="搜索名称、简介或标签…  按 / 快速聚焦" autocomplete="off">
+      <kbd>/</kbd>
+    </div>
+  </div>
+</header>
+
+<nav class="chips-bar"><div class="wrap chips" id="chips"></div></nav>
+
+<main class="wrap" id="main">
+  <p class="loading">加载中…</p>
+</main>
+
+<footer class="wrap foot">
+  <p>⚠️ 表示文章里标注了风险（钓鱼、需钱包签名、推广链接、需付费等），打开前请先读说明。</p>
+  <p>数据源 <a href="https://github.com/whpiano/link/blob/main/links.json">links.json</a> · 仓库 <a href="https://github.com/whpiano/link">whpiano/link</a></p>
+</footer>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const host = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
+let DATA, active = "all";
+
+function card(l) {
+  const h = host(l.url);
+  const art = l.article.replace(/\.md$/, ".html");
+  return `<article class="card${l.risk ? " risk" : ""}">
+    <a class="card-main" href="${esc(art)}">
+      <div class="card-top">
+        <img class="fav" loading="lazy" src="https://icons.duckduckgo.com/ip3/${esc(h)}.ico" alt="" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'fav fav-ph',textContent:'${esc((l.name||'?').trim()[0])}'}))">
+        <div class="title"><h3>${esc(l.name)}</h3><span class="host">${esc(h)}</span></div>
+        ${l.risk ? '<span class="badge" title="有风险提示，请先读说明">⚠️ 风险</span>' : ""}
+      </div>
+      <p class="sum">${esc(l.summary)}</p>
+      <div class="tags">${(l.tags||[]).slice(0,4).map(t => `<span>${esc(t)}</span>`).join("")}</div>
+    </a>
+    <div class="card-actions">
+      <a href="${esc(art)}">📖 说明</a>
+      <a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">↗ 原链接</a>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const q = $("#q").value.trim().toLowerCase();
+  const match = l => !q || [l.name, l.summary, l.url, ...(l.tags||[])].join(" ").toLowerCase().includes(q);
+  const cats = DATA.categories.filter(c => active === "all" || c.id === active);
+  let html = "", total = 0;
+  for (const c of cats) {
+    const items = DATA.links.filter(l => l.category === c.id && match(l))
+      .sort((a, b) => (b.added || "").localeCompare(a.added || ""));
+    if (!items.length) continue;
+    total += items.length;
+    html += `<section id="${c.id}"><h2><span>${c.icon}</span>${esc(c.name)}<em>${items.length}</em></h2>
+      <div class="grid">${items.map(card).join("")}</div></section>`;
+  }
+  $("#main").innerHTML = html || `<p class="empty">没有找到匹配「${esc(q)}」的链接。</p>`;
+}
+
+function chips() {
+  const count = id => DATA.links.filter(l => l.category === id).length;
+  const list = [{id: "all", icon: "✨", name: "全部", n: DATA.links.length},
+    ...DATA.categories.map(c => ({...c, n: count(c.id)})).filter(c => c.n)];
+  $("#chips").innerHTML = list.map(c =>
+    `<button class="chip${c.id === active ? " on" : ""}" data-id="${c.id}">${c.icon} ${esc(c.name)} <b>${c.n}</b></button>`).join("");
+}
+
+fetch("links.json", {cache: "no-cache"}).then(r => r.json()).then(d => {
+  DATA = d;
+  const latest = d.links.map(l => l.added).sort().pop();
+  $("#sub").textContent = `已收录 ${d.links.length} 个链接 · ${d.categories.filter(c => d.links.some(l => l.category === c.id)).length} 个分类 · 最近更新 ${latest}`;
+  chips(); render();
+}).catch(() => { $("#main").innerHTML = '<p class="empty">数据加载失败，请看 <a href="https://github.com/whpiano/link">仓库 README</a>。</p>'; });
+
+$("#chips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  active = b.dataset.id; chips(); render();
+  window.scrollTo({top: $("#chips").offsetTop - 8, behavior: "smooth"});
+});
+$("#q").addEventListener("input", render);
+document.addEventListener("keydown", e => {
+  if (e.key === "/" && document.activeElement !== $("#q")) { e.preventDefault(); $("#q").focus(); }
+  if (e.key === "Escape") { $("#q").value = ""; render(); $("#q").blur(); }
+});
+</script>
+</body>
+</html>
