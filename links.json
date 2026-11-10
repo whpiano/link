@@ -849,6 +849,22 @@
       "added": "2026-11-05",
       "article": "articles/github/aerial-tv.md",
       "risk": false
+    },
+    {
+      "name": "Freebuff",
+      "url": "https://freebuff.com",
+      "summary": "靠广告支撑的免费不限量 AI 编程智能体，多端可用",
+      "category": "ai-tools",
+      "tags": [
+        "AI 编程",
+        "编程助手",
+        "免费",
+        "Codebuff",
+        "CLI"
+      ],
+      "added": "2026-11-10",
+      "article": "articles/ai-tools/freebuff.md",
+      "risk": false
     }
   ]
 }

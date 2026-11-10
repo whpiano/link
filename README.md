@@ -2,7 +2,7 @@
 
 > Sky 收藏的链接合集：每条都配一篇中文说明文章，按分类整理。
 
-共收录 **54** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
+共收录 **55** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
 
 **分类：** [🤖 AI 工具](#ai-tools) · [🎁 免费资源](#free) · [🐙 GitHub 开源项目](#github) · [🔀 API 中转站](#relay) · [💬 提示词](#prompts) · [🛠️ 开发编程](#dev) · [🎨 设计创意](#design) · [⚡ 效率办公](#productivity) · [📚 学习知识](#learning) · [👥 社交社区](#community) · [🎬 视频娱乐](#video)
 
@@ -12,6 +12,7 @@
 
 | 名称 | 简介 | 链接 |
 | --- | --- | --- |
+| **[Freebuff](articles/ai-tools/freebuff.md)** | 靠广告支撑的免费不限量 AI 编程智能体，多端可用 `AI 编程` `编程助手` `免费` `Codebuff` `CLI` | [说明](articles/ai-tools/freebuff.md) · [原链接](https://freebuff.com) |
 | **[Claude](articles/ai-tools/claude.md)** | Anthropic 推出的 AI 助手，擅长长文与代码 `对话` `代码` `长文` | [说明](articles/ai-tools/claude.md) · [原链接](https://claude.ai/) |
 | **[ChatGPT](articles/ai-tools/chatgpt.md)** | OpenAI 的通用 AI 对话助手 `对话` `写作` `OpenAI` | [说明](articles/ai-tools/chatgpt.md) · [原链接](https://chatgpt.com/) |
 | **[LightVela](articles/ai-tools/lightvela.md)** | 腾讯轻量云出品的云端 Hermes Agent 智能体 `白嫖` `智能体` `Hermes Agent` `云端` | [说明](articles/ai-tools/lightvela.md) · [原链接](https://lightvela.com/) |
