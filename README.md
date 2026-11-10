@@ -2,7 +2,7 @@
 
 > Sky 收藏的链接合集：每条都配一篇中文说明文章，按分类整理。
 
-共收录 **55** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
+共收录 **56** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
 
 **分类：** [🤖 AI 工具](#ai-tools) · [🎁 免费资源](#free) · [🐙 GitHub 开源项目](#github) · [🔀 API 中转站](#relay) · [💬 提示词](#prompts) · [🛠️ 开发编程](#dev) · [🎨 设计创意](#design) · [⚡ 效率办公](#productivity) · [📚 学习知识](#learning) · [👥 社交社区](#community) · [🎬 视频娱乐](#video)
 
@@ -49,6 +49,7 @@
 
 | 名称 | 简介 | 链接 |
 | --- | --- | --- |
+| **[Erosion-CN](articles/github/erosion-cn.md)** ⚠️ | iOS MobileGestalt 工具箱中文加固版 `iOS` `MobileGestalt` `侧载` `汉化` | [说明](articles/github/erosion-cn.md) · [原链接](https://github.com/Kianuni/Erosion-CN) |
 | **[数字人口播](articles/github/digital-human-koubo.md)** | 一张照片生成 AI 数字人口播视频的 Agent 技能 `数字人` `口播` `Agent Skill` `视频生成` | [说明](articles/github/digital-human-koubo.md) · [原链接](https://github.com/andyhuo520/digital-human-koubo) |
 | **[httpsms](articles/github/httpsms.md)** | 把安卓手机变成可用 HTTP API 收发的短信网关 `短信` `SMS 网关` `Android` `API` | [说明](articles/github/httpsms.md) · [原链接](https://github.com/NdoleStudio/httpsms) |
 | **[huashu-design](articles/github/huashu-design.md)** | 一句话让 Agent 产出网页、原型、PPT、动画等设计 `设计` `Agent Skill` `PPT` `原型` | [说明](articles/github/huashu-design.md) · [原链接](https://github.com/alchaincyf/huashu-design) |

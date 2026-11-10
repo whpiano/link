@@ -865,6 +865,21 @@
       "added": "2026-11-10",
       "article": "articles/ai-tools/freebuff.md",
       "risk": false
+    },
+    {
+      "name": "Erosion-CN",
+      "url": "https://github.com/Kianuni/Erosion-CN",
+      "summary": "iOS MobileGestalt 工具箱中文加固版",
+      "category": "github",
+      "tags": [
+        "iOS",
+        "MobileGestalt",
+        "侧载",
+        "汉化"
+      ],
+      "added": "2026-11-10",
+      "article": "articles/github/erosion-cn.md",
+      "risk": true
     }
   ]
 }
