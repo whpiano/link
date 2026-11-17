@@ -880,6 +880,21 @@
       "added": "2026-11-10",
       "article": "articles/github/erosion-cn.md",
       "risk": true
+    },
+    {
+      "name": "AI 漫剧 Skills",
+      "url": "https://github.com/zhanghao123vip/ai-manju-skills",
+      "summary": "21 题材 AI 漫剧全流程 Skill 模板",
+      "category": "github",
+      "tags": [
+        "Skill",
+        "AI漫剧",
+        "提示词模板",
+        "短剧"
+      ],
+      "added": "2026-11-17",
+      "article": "articles/github/ai-manju-skills.md",
+      "risk": false
     }
   ]
 }
