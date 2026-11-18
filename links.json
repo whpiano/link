@@ -895,6 +895,21 @@
       "added": "2026-11-17",
       "article": "articles/github/ai-manju-skills.md",
       "risk": false
+    },
+    {
+      "name": "学生教育优惠项目导航",
+      "url": "https://nav.edumails.cn/",
+      "summary": "汇总全球学生教育优惠与认证方式的导航站",
+      "category": "free",
+      "tags": [
+        "教育优惠",
+        "学生认证",
+        "EDU邮箱",
+        "导航"
+      ],
+      "added": "2026-11-18",
+      "article": "articles/free/edumails-nav.md",
+      "risk": false
     }
   ]
 }

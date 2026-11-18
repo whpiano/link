@@ -2,7 +2,7 @@
 
 > Sky 收藏的链接合集：每条都配一篇中文说明文章，按分类整理。
 
-共收录 **57** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
+共收录 **58** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
 
 **分类：** [🤖 AI 工具](#ai-tools) · [🎁 免费资源](#free) · [🐙 GitHub 开源项目](#github) · [🔀 API 中转站](#relay) · [💬 提示词](#prompts) · [🛠️ 开发编程](#dev) · [🎨 设计创意](#design) · [⚡ 效率办公](#productivity) · [📚 学习知识](#learning) · [👥 社交社区](#community) · [🎬 视频娱乐](#video)
 
@@ -26,6 +26,7 @@
 
 | 名称 | 简介 | 链接 |
 | --- | --- | --- |
+| **[学生教育优惠项目导航](articles/free/edumails-nav.md)** | 汇总全球学生教育优惠与认证方式的导航站 `教育优惠` `学生认证` `EDU邮箱` `导航` | [说明](articles/free/edumails-nav.md) · [原链接](https://nav.edumails.cn/) |
 | **[Rainflow Studio](articles/free/rainflow-studio.md)** ⚠️ | 第三方免费 GPT Image 图片生成页 `图片生成` `GPT Image` `第三方镜像` | [说明](articles/free/rainflow-studio.md) · [原链接](https://chatgpt.rainflow.foo/studio/) |
 | **[Yunamo](articles/free/yunamo.md)** | 免费 .loc.cc 二级域名注册与 DNS 托管 `免费域名` `二级域名` `DNS` | [说明](articles/free/yunamo.md) · [原链接](https://yunamo.com/register?ref=c2736224b0843bcb) |
 | **[Bot-Hosting](articles/free/bot-hosting.md)** | 免费托管 Discord 机器人及 Node/Python `容器` `免费托管` `Node.js` `Python` | [说明](articles/free/bot-hosting.md) · [原链接](https://bot-hosting.net/) |
