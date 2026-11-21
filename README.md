@@ -2,7 +2,7 @@
 
 > Sky 收藏的链接合集：每条都配一篇中文说明文章，按分类整理。
 
-共收录 **58** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
+共收录 **59** 个链接。点「说明」看我写的中文文章，点「原链接」直达网站。
 
 **分类：** [🤖 AI 工具](#ai-tools) · [🎁 免费资源](#free) · [🐙 GitHub 开源项目](#github) · [🔀 API 中转站](#relay) · [💬 提示词](#prompts) · [🛠️ 开发编程](#dev) · [🎨 设计创意](#design) · [⚡ 效率办公](#productivity) · [📚 学习知识](#learning) · [👥 社交社区](#community) · [🎬 视频娱乐](#video)
 
@@ -138,6 +138,7 @@
 
 | 名称 | 简介 | 链接 |
 | --- | --- | --- |
+| **[i短剧（iDuanJu）](articles/video/iduanju.md)** | 免费开源的 iOS 短剧播放 App `iOS` `短剧` `开源` `Swift` | [说明](articles/video/iduanju.md) · [原链接](https://github.com/my-name-is-alan/iDuanJu) |
 | **[YouTube](articles/video/youtube.md)** | 全球最大的视频分享平台 `视频` `在线视频` | [说明](articles/video/youtube.md) · [原链接](https://www.youtube.com/) |
 | **[哔哩哔哩](articles/video/bilibili.md)** | 弹幕视频社区，番剧与免费学习资源丰富 `视频` `学习` `番剧` `弹幕` | [说明](articles/video/bilibili.md) · [原链接](https://www.bilibili.com/) |
 

@@ -910,6 +910,21 @@
       "added": "2026-11-18",
       "article": "articles/free/edumails-nav.md",
       "risk": false
+    },
+    {
+      "name": "i短剧（iDuanJu）",
+      "url": "https://github.com/my-name-is-alan/iDuanJu",
+      "summary": "免费开源的 iOS 短剧播放 App",
+      "category": "video",
+      "tags": [
+        "iOS",
+        "短剧",
+        "开源",
+        "Swift"
+      ],
+      "added": "2026-11-21",
+      "article": "articles/video/iduanju.md",
+      "risk": false
     }
   ]
 }
